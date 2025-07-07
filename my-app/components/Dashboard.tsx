@@ -29,7 +29,7 @@ const Dashboard = () => {
                     <Calendar className="w-6 h-6 text-blue-600" />
                   </div>
                   <div className="ml-4">
-                    <p className="text-sm font-medium text-gray-600">Today's Appointments</p>
+                    <p className="text-sm font-medium text-gray-600">Today&apos;s Appointments</p>
                     <p className="text-2xl font-semibold text-gray-900">12</p>
                   </div>
                 </div>

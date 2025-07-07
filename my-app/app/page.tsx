@@ -45,7 +45,7 @@ const HomePage = () => {
                 </h1>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                   Experience world-class healthcare with our comprehensive medical services. 
-                  From routine check-ups to specialized treatments, we're here to provide 
+                  From routine check-ups to specialized treatments, we&apos;re here to provide 
                   the care you deserve.
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">

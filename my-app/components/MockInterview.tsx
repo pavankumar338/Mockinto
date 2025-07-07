@@ -132,9 +132,9 @@ const MockInterview = () => {
       senior: 'senior-level'
     };
 
-    return `Hello! I'm your mock interview interviewer for a ${levelLabels[level]} ${roleLabels[role]} position. I'll be asking you questions to assess your knowledge, experience, and fit for the role. 
+    return `Hello! I&apos;m your mock interview interviewer for a ${levelLabels[level]} ${roleLabels[role]} position. I&apos;ll be asking you questions to assess your knowledge, experience, and fit for the role. 
 
-Let's begin with some questions about your background and experience. Please answer as you would in a real interview setting.
+Let&apos;s begin with some questions about your background and experience. Please answer as you would in a real interview setting.
 
 What motivated you to pursue a career in healthcare, specifically as a ${levelLabels[level]} ${roleLabels[role]}?`;
   };
@@ -182,7 +182,7 @@ What motivated you to pursue a career in healthcare, specifically as a ${levelLa
       const fallbackMessage: Message = {
         id: (Date.now() + 1).toString(),
         role: 'assistant',
-        content: "I apologize, but I'm having trouble processing your response right now. Could you please try again?",
+        content: "I apologize, but I&apos;m having trouble processing your response right now. Could you please try again?",
         timestamp: new Date()
       };
 
@@ -528,7 +528,7 @@ Conversation so far:
     
     const categories = ['Communication', 'Technical Knowledge', 'Problem Solving', 'Professionalism', 'Experience'];
     const sampleExpectedAnswers = [
-      "I was motivated by a desire to help others and make a positive impact on people's lives through healthcare.",
+      "I was motivated by a desire to help others and make a positive impact on people&apos;s lives through healthcare.",
       "I handled the situation by remaining calm, following protocols, and communicating effectively with the team.",
       "I stay updated through continuing education, professional journals, and attending conferences.",
       "I managed the situation by listening to concerns, finding common ground, and focusing on patient care.",
@@ -897,7 +897,7 @@ Conversation so far:
                 {/* Speech Status */}
                 {isListening && (
                   <div className="bg-white rounded-lg p-4 mb-4 border border-blue-200">
-                    <div className="text-sm text-gray-600 mb-2">What you're saying:</div>
+                    <div className="text-sm text-gray-600 mb-2">What you&apos;re saying:</div>
                     <div className="text-lg text-gray-800 font-medium">
                       {transcribedText || 'Listening...'}
                     </div>
@@ -932,7 +932,7 @@ Conversation so far:
 
                 {/* Instructions */}
                 <div className="mt-4 text-sm text-gray-500">
-                  <p>💡 Speak naturally as if you're in a real interview with Dr. Smith</p>
+                  <p>💡 Speak naturally as if you&apos;re in a real interview with Dr. Smith</p>
                   <p>🎤 Your voice will be converted to text automatically</p>
                 </div>
               </div>
